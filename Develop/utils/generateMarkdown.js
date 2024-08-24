@@ -62,9 +62,6 @@ ${data.description}
 ## Screenshot
 ![alt-text](${data.screenshot})
 
-## Usage
-*${data.usage}
-
 ## Install
 
 ${data.dependencies}
@@ -72,6 +69,9 @@ ${data.dependencies}
 ## Testing
 
 ${data.test}
+
+## Contributers
+${data.contributers}
 
 ## Questions
 ### Contact Info

@@ -24,12 +24,6 @@ const questions = [
           name: 'description',
           message: 'Write a Short Descirption of your project',
         },
-        //Usage
-        {
-          type: 'input',
-          name: 'usage',
-          Message: 'How is this application used'
-        },
         // NPM i
         {
           type: 'input',
