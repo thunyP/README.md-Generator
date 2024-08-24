@@ -35,7 +35,12 @@ const questions = [
             type: 'input',
             name: 'test',
             message: 'what command should run to test dependenies ',
-
+        },
+        //contributors
+        {
+          type: 'input',
+          name: 'contributers',
+          message: 'who help create this code?',
         },
         //Contact Info
         //Github
@@ -50,6 +55,7 @@ const questions = [
             name: 'email',
             message: 'What is your email address',
         }
+      
       ];
 
 // // TODO: Create a function to write README file
@@ -57,9 +63,7 @@ const questions = [
 function writeToFile(fileName, data) {
   try {
       fs.writeFileSync(fileName, data);
-  } catch (err) {
-      console.log(err);
-  }
+  } catch (err) {console.log(err);}
 }
 
 
@@ -71,6 +75,5 @@ function init() {
           writeToFile('./product/README.md', generateMarkdown(response))
       )
 }
-
 // // Function call to initialize app
 init();
