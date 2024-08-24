@@ -65,13 +65,9 @@ function writeToFile(fileName, data) {
       fs.writeFileSync(fileName, data);
   } catch (err) {
       console.log(err);
-      console.log("Unable to write to the file.");
   }
 }
 
-// fs.writeFile(fileName, data, (err) =>
-//   err ? console.error(err) : console.log('Success!')
-// );
 
 // // TODO: Create a function to initialize app
 
