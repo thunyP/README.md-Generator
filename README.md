@@ -20,7 +20,7 @@ npm i
 ```
 ## Testing
 ```
-npm start
+node index.js
 ```
 ## Contributers
 Tony Phan 
