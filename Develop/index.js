@@ -55,25 +55,25 @@ const questions = [
             name: 'email',
             message: 'What is your email address',
         }
-      
       ];
 
-// // TODO: Create a function to write README file
+// TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
   try {
       fs.writeFileSync(fileName, data);
-  } catch (err) {console.log(err);}
+  } catch (err) {
+      console.log(err);
+      console.log("can't write to file :(");
+  }
 }
-
-
-// // TODO: Create a function to initialize app
-
+// TODO: Create a function to initialize app
 function init() {
   inquirer
       .prompt(questions).then((response) =>
-          writeToFile('./product/README.md', generateMarkdown(response))
+          writeToFile('./sample/README.md', generateMarkdown(response))
       )
 }
+
 // // Function call to initialize app
 init();
