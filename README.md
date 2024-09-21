@@ -5,7 +5,7 @@
 This code efficinetly creates a README.md for the creator using JS and the intergrated terminal.
 
 ## Description
-[video/example](https://youtu.be/bS6fSH6S6B0)
+[videoexample](https://youtu.be/bS6fSH6S6B0)
 
 ## Table of Contents
 * [Features](#features)
