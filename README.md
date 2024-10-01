@@ -14,8 +14,6 @@ This code efficinetly creates a README.md for the creator using JS and the inter
 * [Testing](#testing)
 * [Questions](#questions)
 
-## Screenshot
-![alt-text](undefined)
 
 ## Install
 ```
@@ -31,4 +29,4 @@ Tony Phan
 ## Questions
 ### Contact Info
 * email: tpt8669@gmail.com 
-* [github/thunyP](https://github.com/thunyP).
+* [github/thunyP](https://github.com/thunyP)
