@@ -29,4 +29,4 @@ Tony Phan
 ## Questions
 ### Contact Info
 * email: tpt8669@gmail.com 
-* [github/thunyP](https://github.com/thunyP)
+* [github: thunyP](https://github.com/thunyP)
